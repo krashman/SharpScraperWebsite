@@ -55,8 +55,10 @@ namespace SharpScraperWebsite.Controllers
             List<string> lista = new List<string>();
             string risposta = "";
 
+            // Creo una lsita id risultati
             for (int i = 0; i < messaggio.Count(); i++)
             {
+                // Non mi fido molto di questo casting, c'è un metodo migliore e più sicuro?
                 risposta = (string) messaggio[i]["text"];
                 lista.Add(risposta);
             }

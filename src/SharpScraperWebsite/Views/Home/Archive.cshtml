@@ -2,34 +2,8 @@
     ViewData["Title"] = "Archive";
     var pasteData = (List<string>)ViewData["lista"];
 }
-<style>
-    #textarea {
-    display: none;
-}
-
-#textarea:target {
-    display: block;
-}
-
-#textarea + ul.controls {
-    list-style-type: none;
-}
-
-#textarea + ul.controls .hide,
-#textarea:target + ul.controls .show {
-    display: none;
-}
-
-#textarea:target + ul.controls .hide,
-#textarea + ul.controls .show {
-    display: inline-block;
-}
-</style>
-
-
 
 <h2>@ViewData["Title"].</h2>
-
 
 
 @for (int i = 0; i < pasteData.Count(); i++)
