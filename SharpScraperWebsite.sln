@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6EA23D24-4CFE-4C30-A911-DFABA2E0D0F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{524EDBB6-2645-4FA5-842F-F18E9C11DD89}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SharpScraperWebsite", "src\SharpScraperWebsite\SharpScraperWebsite.xproj", "{E6CCD4D3-643D-4DBA-9E62-722363721DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6CCD4D3-643D-4DBA-9E62-722363721DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CCD4D3-643D-4DBA-9E62-722363721DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CCD4D3-643D-4DBA-9E62-722363721DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CCD4D3-643D-4DBA-9E62-722363721DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6CCD4D3-643D-4DBA-9E62-722363721DBD} = {6EA23D24-4CFE-4C30-A911-DFABA2E0D0F7}
+	EndGlobalSection
+EndGlobal
